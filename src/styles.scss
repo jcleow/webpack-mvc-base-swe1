@@ -1,3 +1,13 @@
+/** @format */
+
 body {
   background-color: pink;
+}
+
+li:nth-child(odd) {
+  background: red;
+}
+
+li:nth-child(even) {
+  background: blue;
 }
